@@ -1,0 +1,165 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+.navbar
+{
+    height: 60px;
+    width:100%;
+    background-color: black;
+    float:left;
+}
+.logo img
+{
+    height:60px;
+    width:10%;
+    float: left;
+} 
+.companyname
+{
+    height: 60px;
+    width: 90%;
+    float:left;
+}
+.companyname h1
+{
+   text-align:center;
+   line-height:60px;
+   color:white;
+}
+.homecontainer
+{
+    height: 80px;
+    width: 100%;
+    float:left;
+}
+.homecontainer h2
+{
+    height: auto;
+    width: 80%;
+    padding:20px 0px;
+    margin:auto;
+}
+.imgcontainer
+{
+    height:400px;
+    width:80%;
+    border-radius:20px;
+    margin:auto;
+}
+.imgcontainer img
+{
+    height:400px;
+    width:100%;
+    border-radius: 20px;
+}
+.gallerycontainer
+{
+    height:auto;
+    width:100%;
+    margin-top:160px;
+}
+.gallerycontainer h2
+{
+    height:auto;
+    width:80%;
+    margin:auto; 
+}
+.images
+{
+    height:350px;
+    width:80%;
+    margin:auto;
+}
+.box1
+{
+    height:250px;
+    width:23%;
+    background-color: yellow;
+    float:left;
+    margin:50px 1%;
+    border-radius: 30px;
+}
+.box1 img
+{
+    height:250px;
+    width:100%;
+    filter:grayscale(100);
+    transition:0.7s;
+    border-radius: 30px;
+}
+.box1 img:hover
+{
+    filter:grayscale(0);
+}
+.box2
+{
+    height:250px;
+    width:23%;
+    background-color: yellow;
+    float:left;
+    margin:50px 1%;
+    border-radius: 30px;
+}
+.box2 img
+{
+    height:250px;
+    width:100%;
+    filter:grayscale(100);
+    transition:0.7s;
+    border-radius: 30px;
+}
+.box2 img:hover
+{
+    filter:grayscale(0);
+}
+.box3
+{
+    height:250px;
+    width:23%;
+    background-color: yellow;
+    float:left;
+    margin:50px 1%;
+    border-radius: 30px;
+}
+.box3 img
+{
+    height:250px;
+    width:100%;
+    filter:grayscale(100);
+    transition:0.7s;
+    border-radius: 30px;
+}
+.box3 img:hover
+{
+    filter:grayscale(0);
+}
+.box4
+{
+    height:250px;
+    width:23%;
+    background-color: yellow;
+    float:left;
+    margin:50px 1%;
+    border-radius: 30px;
+}
+.box4 img
+{
+    height:250px;
+    width:100%;
+    filter:grayscale(100);
+    transition:0.7s;
+    border-radius: 30px;
+}
+.box4 img:hover
+{
+    filter:grayscale(0);
+}
+.footer h2
+{
+    text-align: center;
+    padding:35px 0px;
+}
+
