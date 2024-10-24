@@ -1,0 +1,121 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body
+{
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image/img1.jpg');
+}
+.navbar
+{
+    height:70px;
+    width:100%;
+    background-image:background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.navbar a
+{
+    color:white;
+    text-decoration: none;
+    padding:0px 25px 0px 0px;
+    position:relative;
+    top:25px;
+    left:25px;
+}
+.navbar i
+{
+    color:white;
+    position:relative;
+    top:25px;
+    left:70%;
+    padding-left: 20px;;
+}
+.box
+{
+    height:550px;
+    width:23%;
+    background-color:white;
+    position:relative;
+    top:10%;
+    left:65%;
+}
+.box h1
+{
+    text-align: center;
+    top:40px;
+    position:relative;
+}
+.box p
+{
+    text-align: center;
+    top: 65px;
+    position: relative;
+    font-size:25px;
+    color:grey;
+}
+input
+{
+    width:60%;
+    height:45px;
+    border-radius: 20px;
+    position: relative;
+    top:20%;
+    left:17%;
+    padding:10px;
+    margin:10px;
+}
+button
+ {
+    width: 60%;
+    height: 45px;
+    border-radius: 20px;
+    position: relative;
+    top: 20%;
+    left: 17%;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+.content
+{
+    position:absolute;
+    font-size: 30px;
+    left:18%;
+    top:35%;
+    color:white;
+}
+.play
+{
+    height:50px;
+    width:50px;
+    background-color: white;
+    border-radius: 50%;
+    position:relative;
+    top:400px;
+    left:18%;
+    
+}
+.play i
+{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   padding-top: 15px;
+}
+.p1
+{
+    color:white;
+    position:relative;
+    top: 369px;
+    left: 22%;
+}
