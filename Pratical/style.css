@@ -1,0 +1,171 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+.navbar
+{
+    height:100px;
+    width:100%;  
+}
+.navbarcontainer
+{
+    height: 100px;
+    width:95%;
+    margin:auto;
+}
+.navbarcontainer h1 
+{
+    font-size:35px;
+    font-family: arial;
+    position:relative;
+    top:30px;
+}
+.menu
+{
+    height:100px;
+    width:50%;
+    
+}
+.menucontainer ul
+{
+    display: flex;
+}
+.menucontainer ul li  
+{
+    font-size:20px;
+    padding:0px 0px 0px 45px;
+    text-decoration: none;
+    list-style: none;
+    position:relative;
+    top:28px;
+}
+li::after 
+{
+    content:'';
+    display: block;
+    border:1px solid black;
+    margin:auto;
+    width:0%;
+    transition:0.7s;
+}
+li:hover::after
+{
+    width:90%;
+    margin-top:5px; 
+}
+.box1 
+{
+    height:650px;
+    width:90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.b1  
+{
+    height:300px;
+    width:21%;
+    background-color:yellow;
+    border-radius: 10px;
+}
+.b1 img 
+{
+    height: 300px;
+    width:100%;
+    border-radius: 10px;
+}
+.b2 
+{
+    height: 300px;
+    width: 21%;
+    background-color:blue;
+    border-radius: 10px;
+}
+.b2 img 
+{
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.b3 
+{
+    height:300px;
+    width: 21%;
+    background-color:green;
+    border-radius: 10px;
+}
+.b3 img 
+{
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.b4
+{
+    height:300px;
+    width: 21%;
+    background-color:black;
+    border-radius: 10px;
+}
+.b4 img
+ {
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.b5
+{
+    height:300px;
+    width: 21%;
+    background-color:green;
+    border-radius: 10px;
+}
+.b5 img 
+{
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.b6
+ {
+    height:300px;
+    width: 21%;
+    background-color:blue;
+    border-radius: 10px;
+}
+.b6 img 
+{
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.b7
+ {
+    height:300px;
+    width: 21%;
+    background-color:rgb(44, 145, 116);
+    border-radius: 10px;
+}
+.b7 img 
+{
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.b8
+{
+    height:300px;
+    width: 21%;
+    background-color: rgb(169, 25, 25);
+    border-radius: 10px;
+}
+.b8 img 
+{
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+}
+    
